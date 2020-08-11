@@ -2,16 +2,18 @@
 scaffold transform contig and rename contig name (>file_num).
 
 ## Input
-RemoveN only take xxx.fasta file (eg:STEC155.fasta). 
+RemoveN :dog: only take xxx.fasta file :bowtie: (eg:STEC155.fasta). 
 ## Usage
 ```
+#Help 
+sh RemoveN -h
 #Single file
-sh Remove -i <filename>
+sh RemoveN -i <filename.fasta>
 #batch file （must add "\"）
 sh RemoveN -i \*.fasta
 ```
 ## Outfile
-The format of the result file is your filename_contig.fasta
+The format of the result file is your filename_contig.fasta :see_no_evil:
 For example
 ```
 #Input file:ST666.fasta
