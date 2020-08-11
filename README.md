@@ -1,5 +1,5 @@
 # RemoveN
-scaffold transform contig and rename contig name (>file_num).
+scaffold transform contig and rename contig (>file_num).
 
 ## Input
 RemoveN :dog: only take xxx.fasta file :bowtie: (eg:STEC155.fasta). 
@@ -19,10 +19,10 @@ For example
 #Input file:ST666.fasta
 >Scaffold1
 aaaattttNaaagggg
->Scafold
+>Scaffold2
 tttaaggNNnaaattnnnnn
 ttta
-#Outfile:ST666_contig.fasta
+#Out file:ST666_contig.fasta
 >ST666_1
 aaaatttt
 >ST666_2
