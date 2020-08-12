@@ -1,6 +1,7 @@
 # RemoveN
 scaffold transform contig and rename contig (>file_num).
 
+:warning: It need ***[usearch](https://www.drive5.com/usearch/)*** to be installed (may need to modify the ***usearch*** name of line 40 in ***RemoveN***code).
 ## Input
 RemoveN :dog: only take xxx.fasta file :bowtie: (eg:STEC155.fasta). 
 ## Usage
